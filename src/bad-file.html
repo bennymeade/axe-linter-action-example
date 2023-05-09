@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accessibility Errors</title>
+    <script src="bad-file-script.js" defer></script>
+</head>
+
+<body>
+    <h1>Accessibility Errors</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+
+        <button>Submit</button>
+    </form>
+
+    <img src="" alt="Invalid Image" />
+
+    <div tabindex="0" onclick="alert('Clicked!')">Click me!</div>
+
+    <a href="#">Link without text</a>
+
+    <p style="color: red;">Color contrast issue</p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>25</td>
+        </tr>
+    </table>
+</body>
+
+</html>

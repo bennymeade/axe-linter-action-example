@@ -1,0 +1,8 @@
+{
+  "name": "axe-linter-action-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bennymeade/axe-linter-action-example.git",
+  "author": "bennymeade <brendan_meade@yahoo.co.uk>",
+  "license": "MIT"
+}
